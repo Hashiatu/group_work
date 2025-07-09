@@ -14,8 +14,7 @@ nav {
     align-items: center;
     padding: 2rem;
     width: 100%;
-    border: 1px solid black;
-    border-bottom: 5px;
+    border-bottom: 1px solid black;
     font-size: 1rem;
     top: 0;
     left: 0;
@@ -55,7 +54,9 @@ nav {
 }
 
 .cta-btn {
-    background-color: deepskyblue;
+    
+    color: white;
+    background-color:blue;
     border-radius: 7px;
     padding: 0.3rem;
     border: transparent;
@@ -66,6 +67,8 @@ nav {
 .hero {
     padding: 1rem 1.75rem;
     margin-top: 1rem;
+    display: flex;
+    /* justify-content: space-between; */
 }
 .text1{
     color: blue;
@@ -97,4 +100,12 @@ nav {
     background-color:orange;
     color: white;
     transition: 0.3s;
+}
+img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 7px;
+    /* position: right; */
+    /* margin-left: 16rem; */
 }

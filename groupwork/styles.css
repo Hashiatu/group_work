@@ -68,7 +68,7 @@ nav {
     padding: 1rem 1.75rem;
     margin-top: 1rem;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 .text1{
     color: blue;
